@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +20,33 @@ function App() {
       </header>
     </div>
   );
+}*/
+
+function App() {
+  return (
+    <div className='App'>
+      <header className='todoListHeader'>
+        <h1>Todo List</h1>
+      </header>
+    </div>
+  );
 }
 
-export default App;
+function Table() {
+  return (
+    <div>
+      <main>
+          <table>
+            <tr>
+              <th>Todo</th>
+              <th>whene</th>
+              <th>done</th>
+            </tr>
+            <td>oi</td>
+          </table>
+      </main>
+    </div>
+  );
+}
+
+export default App, Table;
