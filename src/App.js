@@ -27,26 +27,10 @@ function App() {
     <div className='App'>
       <header className='todoListHeader'>
         <h1>Todo List</h1>
+        <TodoList />
       </header>
     </div>
   );
 }
 
-function Table() {
-  return (
-    <div>
-      <main>
-          <table>
-            <tr>
-              <th>Todo</th>
-              <th>whene</th>
-              <th>done</th>
-            </tr>
-            <td>oi</td>
-          </table>
-      </main>
-    </div>
-  );
-}
-
-export default App, Table;
+export default App;
